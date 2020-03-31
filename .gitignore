@@ -58,3 +58,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+*.log
+*.db
+Ecology game gang/Temp/UnityLockfile
+Ecology game gang/Library/SourceAssetDB-lock
+Ecology game gang/Library/SourceAssetDB
+Ecology game gang/Library/ArtifactDB-lock
+Ecology game gang/Library/ArtifactDB
