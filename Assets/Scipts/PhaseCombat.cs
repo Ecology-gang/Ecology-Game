@@ -6,7 +6,7 @@ public class PhaseCombat : MonoBehaviour
 {
 
     [SerializeField] private GameObject[] m_EnemyPos;
-    [SerializeField] private GameObject[] m_Enemies;
+    public GameObject[] m_Enemies;
     [SerializeField] private Camera m_CombatCamera;
     [SerializeField] private ParticleSystem m_selectedParticle;
 
@@ -48,25 +48,39 @@ public class PhaseCombat : MonoBehaviour
         }
     }
 
-    void SelectEnemyToAttack()
+    public void SelectEnemyToAttack()
     {
-        if (Input.GetMouseButtonDown(0))
-        { // if left button pressed...
-            Ray ray = m_CombatCamera.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
-            {
-                Debug.Log(hit.transform.tag);
+       /*if(EnemyScript.m_lastClickedIndex == 0)
+       {
+           m_selectedParticle.transform.position = m_EnemyPos[0].transform.position;
+           m_selectedParticle.Play();
 
-                if(hit.transform.tag == "Enemy")
-                {
-                    m_selectedParticle.transform.position = hit.transform.gameObject.transform.position;
+       }*/
 
-                    hit.transform.gameObject.GetComponent<EnemyScript>().m_isSelected = true;
-                    m_selectedParticle.Play();
-                }
+            switch(EnemyScript.m_lastClickedIndex){
+
+                case 0:
+                m_selectedParticle.transform.position = m_EnemyPos[0].transform.position;
+                m_selectedParticle.Play();
+                break;
+
+                case 1:
+                m_selectedParticle.transform.position = m_EnemyPos[1].transform.position;
+                m_selectedParticle.Play();
+                break;
+
+                case 2:
+                m_selectedParticle.transform.position = m_EnemyPos[2].transform.position;
+                m_selectedParticle.Play();
+                break;
+
+                case 3:
+                m_selectedParticle.transform.position = m_EnemyPos[3].transform.position;
+                m_selectedParticle.Play();
+                break;
             }
-        }
+        
+
 
     }
 }

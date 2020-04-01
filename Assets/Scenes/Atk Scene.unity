@@ -304,6 +304,11 @@ PrefabInstance:
       propertyPath: m_selectedParticle
       value: 
       objectReference: {fileID: 34951912}
+    - target: {fileID: 9003746268947290030, guid: da67eebf268ab874c80465bb7591a241,
+        type: 3}
+      propertyPath: m_PhaseCombat
+      value: 
+      objectReference: {fileID: 1117058264}
     - target: {fileID: 9003746268947290031, guid: da67eebf268ab874c80465bb7591a241,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -467,6 +472,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117058264 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8613513798670895855, guid: 751eee5747f61bb44b9449b91b639343,
+    type: 3}
+  m_PrefabInstance: {fileID: 8613513798461823366}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1190194407 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 8613513797253724360, guid: 751eee5747f61bb44b9449b91b639343,
+    type: 3}
+  m_PrefabInstance: {fileID: 8613513798461823366}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1223811162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -484,6 +501,11 @@ PrefabInstance:
       propertyPath: m_selectedParticle
       value: 
       objectReference: {fileID: 34951912}
+    - target: {fileID: 9003746268947290030, guid: da67eebf268ab874c80465bb7591a241,
+        type: 3}
+      propertyPath: m_PhaseCombat
+      value: 
+      objectReference: {fileID: 1117058264}
     - target: {fileID: 9003746268947290031, guid: da67eebf268ab874c80465bb7591a241,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -744,6 +766,46 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8613513798019132571, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513798019132571, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1190194407}
+    - target: {fileID: 8613513798411853793, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513798411853793, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -265
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513798411853793, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -191
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513798411853793, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5368617
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513798411853793, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5368617
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513798411853793, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5368617
+      objectReference: {fileID: 0}
     - target: {fileID: 8613513798670895848, guid: 751eee5747f61bb44b9449b91b639343,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -819,6 +881,66 @@ PrefabInstance:
       propertyPath: m_Name
       value: CombatZone
       objectReference: {fileID: 0}
+    - target: {fileID: 8613513799043272862, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513799043272862, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -111
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513799043272862, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -191
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513799043272862, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5368617
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513799043272862, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5368617
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513799043272862, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5368617
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513799052121392, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -420
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513799052121392, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -191
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513799052121392, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513799052121392, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5368617
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513799052121392, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5368617
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613513799052121392, guid: 751eee5747f61bb44b9449b91b639343,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5368617
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 751eee5747f61bb44b9449b91b639343, type: 3}
 --- !u!1001 &9003746269588518997
@@ -838,6 +960,11 @@ PrefabInstance:
       propertyPath: m_selectedParticle
       value: 
       objectReference: {fileID: 34951912}
+    - target: {fileID: 9003746268947290030, guid: da67eebf268ab874c80465bb7591a241,
+        type: 3}
+      propertyPath: m_PhaseCombat
+      value: 
+      objectReference: {fileID: 1117058264}
     - target: {fileID: 9003746268947290031, guid: da67eebf268ab874c80465bb7591a241,
         type: 3}
       propertyPath: m_LocalPosition.x
