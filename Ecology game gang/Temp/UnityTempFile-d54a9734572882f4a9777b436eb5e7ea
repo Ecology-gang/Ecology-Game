@@ -1,6 +1,6 @@
 /target:library
 /nowarn:0169
-/out:Temp/com.unity.multiplayer-weaver.Editor.dll
+/out:Temp/Unity.2D.Sprite.Editor.dll
 /unsafe
 /debug:portable
 /optimize-
@@ -75,14 +75,14 @@
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/Managed/UnityEditor.Graphs.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
-/reference:"C:/Users/Léo/Documents/Ecology-Game/Ecology game gang/Library/PackageCache/nuget.mono-cecil@0.1.5-preview/Mono.Cecil.dll"
-/reference:"C:/Users/Léo/Documents/Ecology-Game/Ecology game gang/Library/PackageCache/nuget.mono-cecil@0.1.5-preview/Mono.Cecil.Mdb.dll"
-/reference:"C:/Users/Léo/Documents/Ecology-Game/Ecology game gang/Library/PackageCache/nuget.mono-cecil@0.1.5-preview/Mono.Cecil.Pdb.dll"
-/reference:"C:/Users/Léo/Documents/Ecology-Game/Ecology game gang/Library/PackageCache/nuget.mono-cecil@0.1.5-preview/Mono.Cecil.Rocks.dll"
-/reference:"C:/Users/Léo/Documents/Ecology-Game/Ecology game gang/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:"C:/Users/bechr/OneDrive/Documents/GitHub/Ecology-Game/Ecology game gang/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
+/reference:"C:/Users/bechr/OneDrive/Documents/GitHub/Ecology-Game/Ecology game gang/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll"
+/reference:"C:/Users/bechr/OneDrive/Documents/GitHub/Ecology-Game/Ecology game gang/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll"
+/reference:"C:/Users/bechr/OneDrive/Documents/GitHub/Ecology-Game/Ecology game gang/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+/reference:"C:/Users/bechr/OneDrive/Documents/GitHub/Ecology-Game/Ecology game gang/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll"
+/reference:"C:/Users/bechr/OneDrive/Documents/GitHub/Ecology-Game/Ecology game gang/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
@@ -287,6 +287,7 @@
 /define:ENABLE_UNITY_COLLECTIONS_CHECKS
 /define:ENABLE_BURST_AOT
 /define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
 /define:ENABLE_CUSTOM_RENDER_TEXTURE
 /define:ENABLE_DIRECTOR
 /define:ENABLE_LOCALIZATION
@@ -297,11 +298,33 @@
 /define:ENABLE_LEGACY_INPUT_MANAGER
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-"C:\Users\Léo\Documents\Ecology-Game\Ecology game gang\Library\PackageCache\com.unity.multiplayer-hlapi@1.0.4\Editor\Tools\Weaver\AssemblyInfo.cs"
-"C:\Users\Léo\Documents\Ecology-Game\Ecology game gang\Library\PackageCache\com.unity.multiplayer-hlapi@1.0.4\Editor\Tools\Weaver\Helpers.cs"
-"C:\Users\Léo\Documents\Ecology-Game\Ecology game gang\Library\PackageCache\com.unity.multiplayer-hlapi@1.0.4\Editor\Tools\Weaver\MessageClassProcessor.cs"
-"C:\Users\Léo\Documents\Ecology-Game\Ecology game gang\Library\PackageCache\com.unity.multiplayer-hlapi@1.0.4\Editor\Tools\Weaver\MonoBehaviourProcessor.cs"
-"C:\Users\Léo\Documents\Ecology-Game\Ecology game gang\Library\PackageCache\com.unity.multiplayer-hlapi@1.0.4\Editor\Tools\Weaver\Program.cs"
-"C:\Users\Léo\Documents\Ecology-Game\Ecology game gang\Library\PackageCache\com.unity.multiplayer-hlapi@1.0.4\Editor\Tools\Weaver\SyncListStructProcessor.cs"
-"C:\Users\Léo\Documents\Ecology-Game\Ecology game gang\Library\PackageCache\com.unity.multiplayer-hlapi@1.0.4\Editor\Tools\Weaver\UNetBehaviourProcessor.cs"
-"C:\Users\Léo\Documents\Ecology-Game\Ecology game gang\Library\PackageCache\com.unity.multiplayer-hlapi@1.0.4\Editor\Tools\Weaver\UNetWeaver.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\AssemblyInfo.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\Interface\IAssetDatabase.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\Interface\IEvent.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\Interface\IGL.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\Interface\IGUIUtility.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\Interface\IHandles.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\Interface\ISpriteEditorDataProvider.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\Interface\ITexture.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\Interface\IUndoSystem.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\ShapeEditor\ShapeEditor.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\ShapeEditor\ShapeEditorRectSelection.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteEditorHandles.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteEditorMenu.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteEditorUtility.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteEditorWindow.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteRect.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditor\SpriteUtilityWindow.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditorModule\ISpriteEditorModule.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteEditorData.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModule.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModuleBase.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModuleBaseView.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpriteFrameModuleView.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpritePolygonModeModule.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteFrameModule\SpritePolygonModeModuleView.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteOutlineModule.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpritePhysicsShapeModule.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditorModule\SpriteSecondaryTexturesModule.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditorModule\TextureImporterDataProvider.cs"
+"C:\Program Files\Unity\Hub\Editor\2019.3.0f6\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite\Editor\SpriteEditorModule\TextureImporterDataProviderImplementation.cs"
