@@ -6,9 +6,10 @@ public class PhaseCombat : MonoBehaviour
 {
 
     [SerializeField] private GameObject[] m_EnemyPos;
-    public GameObject[] m_Enemies;
+    
     [SerializeField] private Camera m_CombatCamera;
     [SerializeField] private ParticleSystem m_selectedParticle;
+    public GameObject[] m_Enemies;
 
     public bool m_playersTurn;
 
@@ -88,7 +89,6 @@ public class PhaseCombat : MonoBehaviour
             m_playersTurn = false;
         }
         
-
     }
 
     public void EnemiesTurn()

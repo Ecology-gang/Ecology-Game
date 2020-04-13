@@ -15,10 +15,20 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 m_dPos;
 
+<<<<<<< HEAD
+=======
+
+    private Camera m_mainCam;
+>>>>>>> Prog
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         m_targetForward = transform.forward;
+<<<<<<< HEAD
+=======
+
+        m_mainCam = Camera.main;
+>>>>>>> Prog
     }
 
     // Update is called once per frame
@@ -37,10 +47,18 @@ public class PlayerMovement : MonoBehaviour
 
     void GetInput()
     {
+<<<<<<< HEAD
         if (Input.GetMouseButtonDown(0))
         {
             m_canMove = true;
         } else if (Input.GetMouseButtonUp(0))
+=======
+        if (Input.GetButtonDown("Fire1"))
+        {
+            m_canMove = true;
+            
+        } else if (Input.GetButtonUp("Fire1"))
+>>>>>>> Prog
         {
             m_canMove = false;
         }
@@ -55,7 +73,31 @@ public class PlayerMovement : MonoBehaviour
     {
         if (m_canMove)
         {
+<<<<<<< HEAD
             m_dPos = new Vector3(Input.GetAxisRaw(Axis.MOUSE_X))
+=======
+            m_dPos = new Vector3(Input.mousePosition.x, 0f, Input.mousePosition.y);
+
+            Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            Vector3 mousePos = Input.mousePosition;
+            mousePos.z = Camera.main.nearClipPlane;
+            worldPosition = Camera.main.ScreenToWorldPoint(mousePos);
+
+            m_dPos.Normalize();
+
+            m_dPos *= m_moveSpeed * Time.fixedDeltaTime;
+            m_dPos = Quaternion.Euler(0f, m_mainCam.transform.eulerAngles.y, 0f) * m_dPos;
+            rb.MovePosition(rb.position + m_dPos);
+
+            if (m_dPos != Vector3.zero)
+            {
+                m_targetForward = Vector3.ProjectOnPlane(-m_dPos, Vector3.up);
+            }
+            Debug.Log(mousePos);
+
+
+>>>>>>> Prog
         }
     }
 }

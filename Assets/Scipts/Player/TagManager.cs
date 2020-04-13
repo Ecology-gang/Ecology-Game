@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,4 +16,10 @@ public class TagManager : MonoBehaviour
     {
         
     }
+=======
+﻿public class Axis
+{
+    public const string m_mouse_X = "Mouse X";
+    public const string m_mouse_Y = "Mouse Y";
+>>>>>>> Prog
 }
